@@ -175,6 +175,45 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "requests",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					},
+					{
+						"internalType": "address payable",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "isCompleted",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "noOfVoters",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "sendEther",
 				"outputs": [],
@@ -236,11 +275,11 @@
 	},
 	"sources": {
 		"contracts/CrowdFunding.sol": {
-			"keccak256": "0x9e7cf68ac3f7240f8de63fdfabeec63cc16b7189c57bc249ae07e1decfd1f3fc",
+			"keccak256": "0x7f0c5f1152a81ca04bdb6d867156b5988b16d25dbd3a053d5298a5e791a6c392",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://e3046a4a28fff296257eaae072afbe574bb9686bdd34ad6cd0ec82c91e7494d4",
-				"dweb:/ipfs/QmUKXFcMT6vhWPS8caGzdhtDpqSd62dkeFwMneRyXHiHQB"
+				"bzz-raw://773aef84ba570308851f20bf4205eb9b19bc343fcbce0c8b83e44f18fb4797ab",
+				"dweb:/ipfs/QmQnY6SDwyurNVNvMYLDrP8YLnZSdbKDoNjLHAGDWRRCvS"
 			]
 		}
 	},

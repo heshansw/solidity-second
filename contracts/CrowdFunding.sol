@@ -21,7 +21,7 @@ contract CrowdFunding {
         mapping(address => bool) voters;
     }
 
-    mapping(uint => Request) requests;
+    mapping(uint => Request) public requests;
     uint public noOfRequests;
 
     modifier onlyManager() {
